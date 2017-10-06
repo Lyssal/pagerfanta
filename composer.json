@@ -1,0 +1,19 @@
+{
+    "name": "lyssal/pagerfanta",
+    "description": "Extensions for the Pagerfanta library.",
+	"license" : "proprietary",
+    "keywords": ["pagerfanta"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Rémi Leclerc",
+            "homepage": "http://www.lyssal.com/"
+        }
+    ],
+    "require": {
+        "pagerfanta/pagerfanta": "~1.0"
+    },
+    "autoload":     {
+        "psr-0": { "Lyssal\\Pagerfanta": "src" }
+    }
+}
