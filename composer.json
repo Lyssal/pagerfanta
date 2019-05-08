@@ -13,7 +13,9 @@
     "require": {
         "pagerfanta/pagerfanta": "^2.1"
     },
-    "autoload":     {
-        "psr-0": { "Lyssal\\Pagerfanta": "src" }
+    "autoload": {
+        "psr-4": {
+            "Lyssal\\Pagerfanta\\": "src/"
+        }
     }
 }
